@@ -1,0 +1,41 @@
+2022-04-19 12:40:14,273 [INFO] Starting ctools
+2022-04-19 12:50:19,119 [INFO] Starting ctools
+2022-04-19 12:51:51,747 [INFO] Exiting ctools
+2022-04-25 07:31:08,445 [INFO] Starting ctools
+2022-04-25 07:32:10,234 [INFO] Starting ctools
+2022-04-25 07:48:36,898 [INFO] Starting ctools
+2022-04-26 19:43:45,521 [INFO] Starting ctools
+2022-04-26 19:43:57,617 [INFO] Starting unlock task
+2022-04-26 19:44:19,654 [INFO] Logging into 192.168.1.201
+2022-04-26 19:44:19,670 [DEBUG] Starting new HTTPS connection (1): 192.168.1.201:443
+2022-04-26 19:44:19,794 [DEBUG] https://192.168.1.201:443 "POST /admin/api/login HTTP/1.1" 200 24
+2022-04-26 19:44:19,794 [INFO] User logged in. {'host': '192.168.1.201', 'user': 'admin'}
+2022-04-26 19:44:19,810 [DEBUG] https://192.168.1.201:443 "GET /admin/api/currentPortal HTTP/1.1" 200 17
+2022-04-26 19:44:19,841 [DEBUG] https://192.168.1.201:443 "GET /admin/api/currentSession HTTP/1.1" 200 916
+2022-04-26 19:44:19,841 [INFO] Successfully logged in to 192.168.1.201
+2022-04-26 19:44:19,841 [DEBUG] Updating current tenant. {'tenant': ''}
+2022-04-26 19:44:19,857 [DEBUG] https://192.168.1.201:443 "PUT /admin/api/currentPortal HTTP/1.1" 200 0
+2022-04-26 19:44:19,857 [DEBUG] Skipping.
+2022-04-26 19:44:19,857 [DEBUG] Configuration changed. {'url': '/currentPortal', 'value': '""'}
+2022-04-26 19:44:19,857 [DEBUG] Updated current tenant. {'tenant': ''}
+2022-04-26 19:44:26,295 [DEBUG] https://192.168.1.201:443 "POST /admin/api/portals/portal/devices/filer HTTP/1.1" 200 153
+2022-04-26 19:44:26,295 [DEBUG] Found match. {'ref': 'objs/8//TeamPortal/portal'}
+2022-04-26 19:44:26,310 [DEBUG] https://192.168.1.201:443 "GET /admin/devicecmdnew/portal/filer/status/device/MacAddress HTTP/1.1" 200 28
+2022-04-26 19:44:26,310 [DEBUG] Found match. {'ref': 'objs/8//TeamPortal/portal'}
+2022-04-26 19:44:26,326 [DEBUG] https://192.168.1.201:443 "GET /admin/devicecmdnew/portal/filer/status/device/runningFirmware HTTP/1.1" 200 21
+2022-04-26 20:08:53,083 [INFO] Starting ctools
+2022-04-27 09:34:56,713 [INFO] Starting ctools
+2022-07-14 10:56:36,475 [INFO] Starting ctools
+2022-07-14 10:56:54,287 [INFO] Exiting ctools
+2022-07-19 21:59:52,853 [INFO] Starting ctools
+2022-07-19 21:06:12,168 [INFO] Starting ctools
+2022-07-19 21:06:34,334 [INFO] Starting run_cmd task
+2022-07-19 21:10:05,803 [INFO] Starting ctools
+2022-07-19 21:10:43,054 [INFO] Exiting ctools
+2022-07-19 21:15:36,108 [INFO] Starting ctools
+2022-12-28 14:42:38,841 [INFO] Starting ctools
+2022-12-29 06:49:15,962 [INFO] Starting ctools
+2022-12-29 06:52:49,652 [INFO] Starting ctools
+2022-12-29 06:52:56,454 [INFO] Exiting ctools
+2022-12-29 06:53:04,316 [INFO] Starting ctools
+2022-12-29 06:53:06,457 [INFO] Exiting ctools
