@@ -1,0 +1,364 @@
+﻿Tenant,Filer Name,CloudSync Status,selfScanIntervalInHours,uploadingFiles,scanningFiles,selfVerificationscanningFiles,MetaLogsSetting,MetaLogMaxSize,MetaLogMaxFiles,CurrentFirmware,License,EvictionPercentage,CurrentVolumeStorage,IP Config,DNS Server1,DNS Server2,AD Domain Status,Alerts,TimeServer,uptime,Current Performance,Max CPU,Max Memory
+caefs01,CAENAS01,Synced,168,0,0,0,x000004804,100,70,7.0.1783.20,EV64,75,Total: 29360112 Used: 7456365 Free: 21903747,10.120.248.31,10.132.110.11,10.60.1.17,Ok,"{
+     ""_classname"": ""AlertSettings"",
+     ""SMTPServer"": ""10.60.1.49"",
+     ""auth"": {
+          ""_classname"": ""AuthSettings"",
+          ""username"": ""strykercorp\\svc_aadctera"",
+          ""password"": ""***DONTCHANGE***""
+     },
+     ""emails"": [
+          ""GlobalCTERAAdmins@stryker.com""
+     ],
+     ""from"": ""alert-no-reply@ctera.com"",
+     ""logCodes"": [],
+     ""minSeverity"": ""critical"",
+     ""port"": 25,
+     ""specificAlerts"": {
+          ""_classname"": ""SpecificAlerts"",
+          ""VolumeCriticallyFullPercent"": null,
+          ""VolumeNearlyFullPercent"": null,
+          ""BackupFailAlert"": true,
+          ""BackupFailDays"": 3,
+          ""CloudConnectFailAlert"": true,
+          ""CloudConnectFailHours"": 6,
+          ""CloudSyncFailAlert"": true,
+          ""CloudSyncFailHours"": 5,
+          ""NotifyBackupSuccess"": false,
+          ""NotifyDeviceStarted"": true,
+          ""NotifyFirmwareUpgrade"": false,
+          ""NotifyRedundantPSUFailure"": false,
+          ""NotifySyncSuccess"": false,
+          ""SyncFailAlert"": true,
+          ""SyncFailDays"": 3,
+          ""VolumeFullAlert"": true,
+          ""VolumeFullPercent"": 85,
+          ""VolumeQuotaFullAlert"": true,
+          ""VolumeQuotaFullPercent"": 95
+     },
+     ""useAuth"": true,
+     ""useCustomServer"": true,
+     ""useTLS"": false
+}","Mode: enabled Zone: (GMT+09:00) Osaka, Sapporo, Tokyo Servers: ['10.50.110.50', '10.50.110.51', '10.120.25.12', '10.132.110.11']",P0Y0M17DT12H24M37S,CPU: 0% Mem: 18%,1%,18%
+dxbnasfs01,dxbnas01,Syncing,168,1,0,0,x000004804,100,70,7.0.1783.20,EV64,75,Total: 44040176 Used: 808798 Free: 43231378,10.120.25.10,10.132.110.11,10.132.110.12,Ok,"{
+     ""_classname"": ""AlertSettings"",
+     ""SMTPServer"": ""10.60.1.49"",
+     ""auth"": {
+          ""_classname"": ""AuthSettings"",
+          ""username"": ""strykercorp\\svc_aadctera"",
+          ""password"": ""***DONTCHANGE***""
+     },
+     ""emails"": [
+          ""GlobalCTERAAdmins@stryker.com""
+     ],
+     ""from"": ""alert-no-reply@ctera.com"",
+     ""logCodes"": [],
+     ""minSeverity"": ""critical"",
+     ""port"": 25,
+     ""specificAlerts"": {
+          ""_classname"": ""SpecificAlerts"",
+          ""VolumeCriticallyFullPercent"": null,
+          ""VolumeNearlyFullPercent"": null,
+          ""BackupFailAlert"": true,
+          ""BackupFailDays"": 3,
+          ""CloudConnectFailAlert"": true,
+          ""CloudConnectFailHours"": 6,
+          ""CloudSyncFailAlert"": true,
+          ""CloudSyncFailHours"": 5,
+          ""NotifyBackupSuccess"": false,
+          ""NotifyDeviceStarted"": true,
+          ""NotifyFirmwareUpgrade"": false,
+          ""NotifyRedundantPSUFailure"": false,
+          ""NotifySyncSuccess"": false,
+          ""SyncFailAlert"": true,
+          ""SyncFailDays"": 3,
+          ""VolumeFullAlert"": true,
+          ""VolumeFullPercent"": 85,
+          ""VolumeQuotaFullAlert"": true,
+          ""VolumeQuotaFullPercent"": 95
+     },
+     ""useAuth"": true,
+     ""useCustomServer"": true,
+     ""useTLS"": false
+}","Mode: enabled Zone: (GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi Servers: ['10.120.25.12', '10.132.110.11']",P0Y0M17DT12H24M40S,CPU: 3% Mem: 10%,17%,10%
+gurfs01,gurnas01,UploadIsStalled,168,5058,0,0,x000004804,100,69,7.0.1783.20,EV64,85,Total: 22250380 Used: 17556924 Free: 4693456,10.80.0.7,10.80.1.142,10.132.110.11,Ok,"{
+     ""_classname"": ""AlertSettings"",
+     ""emails"": [
+          ""GlobalCTERAAdmins@stryker.com""
+     ],
+     ""from"": ""alert-no-reply@ctera.com"",
+     ""logCodes"": [],
+     ""minSeverity"": ""critical"",
+     ""specificAlerts"": {
+          ""_classname"": ""SpecificAlerts"",
+          ""VolumeCriticallyFullPercent"": null,
+          ""VolumeNearlyFullPercent"": null,
+          ""BackupFailAlert"": true,
+          ""BackupFailDays"": 3,
+          ""CloudConnectFailAlert"": true,
+          ""CloudConnectFailHours"": 6,
+          ""CloudSyncFailAlert"": true,
+          ""CloudSyncFailHours"": 5,
+          ""NotifyBackupSuccess"": false,
+          ""NotifyDeviceStarted"": true,
+          ""NotifyFirmwareUpgrade"": false,
+          ""NotifyRedundantPSUFailure"": false,
+          ""NotifySyncSuccess"": false,
+          ""SyncFailAlert"": true,
+          ""SyncFailDays"": 3,
+          ""VolumeFullAlert"": true,
+          ""VolumeFullPercent"": 85,
+          ""VolumeQuotaFullAlert"": true,
+          ""VolumeQuotaFullPercent"": 95
+     },
+     ""useCustomServer"": true,
+     ""useTLS"": false,
+     ""SMTPServer"": ""10.60.1.49"",
+     ""auth"": {
+          ""_classname"": ""AuthSettings"",
+          ""username"": ""strykercorp\\svc_aadctera"",
+          ""password"": ""***DONTCHANGE***""
+     },
+     ""port"": 25,
+     ""useAuth"": true
+}","Mode: enabled Zone: (GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi Servers: ['10.132.110.12', '10.132.110.11']",P0Y0M4DT10H37M41S,CPU: 6% Mem: 15%,26%,18%
+hkgfs01,hkgnas01,Synced,168,0,0,0,x000004804,100,70,7.0.1783.20,EV32,75,Total: 22261252 Used: 10704241 Free: 11557011,10.101.240.13,10.75.150.31,10.50.110.50,Ok,"{
+     ""_classname"": ""AlertSettings"",
+     ""SMTPServer"": ""10.60.1.49"",
+     ""auth"": {
+          ""_classname"": ""AuthSettings"",
+          ""username"": ""strykercorp\\svc_aadctera"",
+          ""password"": ""***DONTCHANGE***""
+     },
+     ""emails"": [
+          ""GlobalCTERAAdmins@stryker.com""
+     ],
+     ""from"": ""alert-no-reply@ctera.com"",
+     ""logCodes"": [],
+     ""minSeverity"": ""critical"",
+     ""port"": 25,
+     ""specificAlerts"": {
+          ""_classname"": ""SpecificAlerts"",
+          ""VolumeCriticallyFullPercent"": null,
+          ""VolumeNearlyFullPercent"": null,
+          ""BackupFailAlert"": true,
+          ""BackupFailDays"": 8,
+          ""CloudConnectFailAlert"": true,
+          ""CloudConnectFailHours"": 6,
+          ""CloudSyncFailAlert"": true,
+          ""CloudSyncFailHours"": 5,
+          ""NotifyBackupSuccess"": false,
+          ""NotifyDeviceStarted"": true,
+          ""NotifyFirmwareUpgrade"": false,
+          ""NotifyRedundantPSUFailure"": false,
+          ""NotifySyncSuccess"": false,
+          ""SyncFailAlert"": true,
+          ""SyncFailDays"": 3,
+          ""VolumeFullAlert"": true,
+          ""VolumeFullPercent"": 85,
+          ""VolumeQuotaFullAlert"": true,
+          ""VolumeQuotaFullPercent"": 95
+     },
+     ""useAuth"": true,
+     ""useCustomServer"": true,
+     ""useTLS"": false
+}","Mode: enabled Zone: (GMT+08:00) Beijing, Chongqing, Hong Kong, Urumqi Servers: ['10.50.110.50', '10.50.110.51', '10.51.110.51', '10.51.110.50']",P0Y0M4DT11H11M17S,CPU: 1% Mem: 25%,12%,37%
+sydfs01,sydnas01,Syncing,168,4,0,0,x000004804,100,70,7.0.1783.20,EV32,75,Total: 22261252 Used: 8484374 Free: 13776878,10.73.1.41,10.50.110.50,10.73.1.1,Ok,"{
+     ""_classname"": ""AlertSettings"",
+     ""SMTPServer"": ""10.60.1.49"",
+     ""auth"": {
+          ""_classname"": ""AuthSettings"",
+          ""username"": ""strykercorp\\svc_aadctera"",
+          ""password"": ""***DONTCHANGE***""
+     },
+     ""emails"": [
+          ""GlobalCTERAAdmins@stryker.com""
+     ],
+     ""from"": ""alert-no-reply@ctera.com"",
+     ""logCodes"": [],
+     ""minSeverity"": ""critical"",
+     ""port"": 25,
+     ""specificAlerts"": {
+          ""_classname"": ""SpecificAlerts"",
+          ""VolumeCriticallyFullPercent"": null,
+          ""VolumeNearlyFullPercent"": null,
+          ""BackupFailAlert"": true,
+          ""BackupFailDays"": 3,
+          ""CloudConnectFailAlert"": true,
+          ""CloudConnectFailHours"": 6,
+          ""CloudSyncFailAlert"": true,
+          ""CloudSyncFailHours"": 5,
+          ""NotifyBackupSuccess"": false,
+          ""NotifyDeviceStarted"": true,
+          ""NotifyFirmwareUpgrade"": false,
+          ""NotifyRedundantPSUFailure"": false,
+          ""NotifySyncSuccess"": false,
+          ""SyncFailAlert"": true,
+          ""SyncFailDays"": 3,
+          ""VolumeFullAlert"": true,
+          ""VolumeFullPercent"": 85,
+          ""VolumeQuotaFullAlert"": true,
+          ""VolumeQuotaFullPercent"": 95
+     },
+     ""useAuth"": true,
+     ""useCustomServer"": true,
+     ""useTLS"": false
+}","Mode: enabled Zone: (GMT+10:00) Brisbane Servers: ['10.50.110.50', '10.51.110.50', '10.51.110.51', '10.50.110.51']",P0Y0M17DT12H25M17S,CPU: 2% Mem: 22%,74%,28%
+tokfs01,toknas01,Syncing,168,0,0,0,x000004804,100,70,7.0.1783.20,EV32,75,Total: 22261252 Used: 13489686 Free: 8771566,10.75.150.127,10.75.150.31,10.75.150.190,Ok,"{
+     ""_classname"": ""AlertSettings"",
+     ""SMTPServer"": ""10.60.1.49"",
+     ""auth"": {
+          ""_classname"": ""AuthSettings"",
+          ""username"": ""strykercorp\\svc_aadctera"",
+          ""password"": ""***DONTCHANGE***""
+     },
+     ""emails"": [
+          ""GlobalCTERAAdmins@stryker.com""
+     ],
+     ""from"": ""alert-no-reply@ctera.com"",
+     ""logCodes"": [],
+     ""minSeverity"": ""critical"",
+     ""port"": 25,
+     ""specificAlerts"": {
+          ""_classname"": ""SpecificAlerts"",
+          ""VolumeCriticallyFullPercent"": null,
+          ""VolumeNearlyFullPercent"": null,
+          ""BackupFailAlert"": true,
+          ""BackupFailDays"": 8,
+          ""CloudConnectFailAlert"": true,
+          ""CloudConnectFailHours"": 6,
+          ""CloudSyncFailAlert"": true,
+          ""CloudSyncFailHours"": 5,
+          ""NotifyBackupSuccess"": false,
+          ""NotifyDeviceStarted"": true,
+          ""NotifyFirmwareUpgrade"": false,
+          ""NotifyRedundantPSUFailure"": false,
+          ""NotifySyncSuccess"": false,
+          ""SyncFailAlert"": true,
+          ""SyncFailDays"": 3,
+          ""VolumeFullAlert"": true,
+          ""VolumeFullPercent"": 85,
+          ""VolumeQuotaFullAlert"": true,
+          ""VolumeQuotaFullPercent"": 95
+     },
+     ""useAuth"": true,
+     ""useCustomServer"": true,
+     ""useTLS"": false
+}","Mode: enabled Zone: (GMT+09:00) Osaka, Sapporo, Tokyo Servers: ['10.132.110.11', '10.132.110.12', '10.50.110.50', '10.50.110.51']",P0Y0M10DT17H27M12S,CPU: 1% Mem: 27%,55%,48%
+tokfs01,toknasdr01,Synced,168,0,0,0,0x00004804,100,7,7.0.1282.20,EV32,75,Total: 204784 Used: 25963 Free: 178821,10.132.107.99,10.132.110.11,10.132.110.14,Ok,"{
+     ""_classname"": ""AlertSettings"",
+     ""SMTPServer"": null,
+     ""auth"": null,
+     ""emails"": [],
+     ""from"": ""alert-no-reply@ctera.com"",
+     ""logCodes"": [],
+     ""minSeverity"": ""critical"",
+     ""port"": 25,
+     ""specificAlerts"": {
+          ""_classname"": ""SpecificAlerts"",
+          ""VolumeCriticallyFullPercent"": null,
+          ""VolumeFullPercent"": null,
+          ""VolumeNearlyFullPercent"": null,
+          ""BackupFailAlert"": true,
+          ""BackupFailDays"": 3,
+          ""CloudConnectFailAlert"": true,
+          ""CloudConnectFailHours"": 6,
+          ""CloudSyncFailAlert"": true,
+          ""CloudSyncFailHours"": 5,
+          ""NotifyBackupSuccess"": false,
+          ""NotifyDeviceStarted"": false,
+          ""NotifyFirmwareUpgrade"": true,
+          ""NotifyRedundantPSUFailure"": false,
+          ""NotifySyncSuccess"": false,
+          ""SyncFailAlert"": true,
+          ""SyncFailDays"": 3,
+          ""VolumeFullAlert"": true,
+          ""VolumeQuotaFullAlert"": true,
+          ""VolumeQuotaFullPercent"": 95
+     },
+     ""useAuth"": false,
+     ""useCustomServer"": false,
+     ""useTLS"": true
+}","Mode: enabled Zone: (GMT) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London Servers: ['10.132.110.11', '10.132.110.14']",P0Y0M17DT12H23M21S,CPU: 0% Mem: 13%,3%,13%
+seofs01,seonas01,Synced,168,0,0,0,x000004804,100,70,7.0.1783.20,EV64,75,Total: 25439904 Used: 4466231 Free: 20973673,10.76.0.28,10.75.150.31,10.132.110.11,Ok,"{
+     ""_classname"": ""AlertSettings"",
+     ""SMTPServer"": ""10.60.1.49"",
+     ""auth"": {
+          ""_classname"": ""AuthSettings"",
+          ""username"": ""strykercorp\\svc_aadctera"",
+          ""password"": ""***DONTCHANGE***""
+     },
+     ""emails"": [
+          ""GlobalCTERAAdmins@stryker.com""
+     ],
+     ""from"": ""alert-no-reply@ctera.com"",
+     ""logCodes"": [],
+     ""minSeverity"": ""critical"",
+     ""port"": 25,
+     ""specificAlerts"": {
+          ""_classname"": ""SpecificAlerts"",
+          ""VolumeCriticallyFullPercent"": null,
+          ""VolumeNearlyFullPercent"": null,
+          ""BackupFailAlert"": true,
+          ""BackupFailDays"": 3,
+          ""CloudConnectFailAlert"": true,
+          ""CloudConnectFailHours"": 6,
+          ""CloudSyncFailAlert"": true,
+          ""CloudSyncFailHours"": 5,
+          ""NotifyBackupSuccess"": false,
+          ""NotifyDeviceStarted"": true,
+          ""NotifyFirmwareUpgrade"": false,
+          ""NotifyRedundantPSUFailure"": false,
+          ""NotifySyncSuccess"": false,
+          ""SyncFailAlert"": true,
+          ""SyncFailDays"": 3,
+          ""VolumeFullAlert"": true,
+          ""VolumeFullPercent"": 85,
+          ""VolumeQuotaFullAlert"": true,
+          ""VolumeQuotaFullPercent"": 95
+     },
+     ""useAuth"": true,
+     ""useCustomServer"": true,
+     ""useTLS"": false
+}","Mode: enabled Zone: (GMT+09:00) Seoul Servers: ['10.75.150.31', '10.132.110.11', '10.132.110.57']",P0Y0M17DT12H24M58S,CPU: 0% Mem: 26%,2%,27%
+stryker-apac,gurnas02,Syncing,168,3,0,0,x000004804,100,70,7.0.1783.20,EV64,75,Total: 65011708 Used: 979758 Free: 64031950,10.80.0.42,10.80.1.142,10.132.110.11,Ok,"{
+     ""_classname"": ""AlertSettings"",
+     ""SMTPServer"": ""syksmtp.stryker.com"",
+     ""auth"": {
+          ""_classname"": ""AuthSettings"",
+          ""username"": ""strykercorp\\svc_adctera"",
+          ""password"": ""***DONTCHANGE***""
+     },
+     ""emails"": [
+          ""GlobalCTERAAdmins@stryker.com""
+     ],
+     ""from"": ""alert-no-reply@ctera.com"",
+     ""logCodes"": [],
+     ""minSeverity"": ""critical"",
+     ""port"": 25,
+     ""specificAlerts"": {
+          ""_classname"": ""SpecificAlerts"",
+          ""VolumeCriticallyFullPercent"": null,
+          ""VolumeNearlyFullPercent"": null,
+          ""BackupFailAlert"": true,
+          ""BackupFailDays"": 3,
+          ""CloudConnectFailAlert"": true,
+          ""CloudConnectFailHours"": 6,
+          ""CloudSyncFailAlert"": true,
+          ""CloudSyncFailHours"": 5,
+          ""NotifyBackupSuccess"": false,
+          ""NotifyDeviceStarted"": true,
+          ""NotifyFirmwareUpgrade"": true,
+          ""NotifyRedundantPSUFailure"": false,
+          ""NotifySyncSuccess"": false,
+          ""SyncFailAlert"": true,
+          ""SyncFailDays"": 3,
+          ""VolumeFullAlert"": true,
+          ""VolumeFullPercent"": 90,
+          ""VolumeQuotaFullAlert"": true,
+          ""VolumeQuotaFullPercent"": 95
+     },
+     ""useAuth"": true,
+     ""useCustomServer"": true,
+     ""useTLS"": false
+}","Mode: enabled Zone: (GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi Servers: ['10.80.1.142', '10.132.110.11']",P0Y0M13DT2H57M59S,CPU: 0% Mem: 22%,5%,23%
